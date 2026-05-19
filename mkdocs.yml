@@ -1,0 +1,6 @@
+site_name: GLIMS RGI
+site_description: Randolph Glacier Inventory landing page
+theme:
+  name: mkdocs
+nav:
+  - Home: index.md

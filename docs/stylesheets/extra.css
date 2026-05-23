@@ -1,0 +1,70 @@
+/* Constrain content width — Material hardcodes 61rem, reduce for sidebar-less layout */
+.md-grid {
+  max-width: 50rem;
+}
+
+/* Hide both sidebars — !important needed on secondary because Material JS sets inline style */
+.md-sidebar--primary {
+  display: none;
+}
+
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+/* Header: subtle bottom border for separation on white background */
+.md-header {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Larger logo */
+.md-header__button.md-logo img {
+  height: 2.4rem;
+}
+
+/* Prevent title from consuming all flex space so nav links sit beside it */
+.md-header__title {
+  flex-grow: 0 !important;
+  margin-right: 1.5rem;
+}
+
+/* Inline header navigation */
+.md-header__nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.2rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.md-header__nav-link {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  transition: color 0.125s, background-color 0.125s;
+  white-space: nowrap;
+}
+
+.md-header__nav-link:hover {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.md-header__nav-link--active {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 600;
+}
+
+/* Hidden on mobile — use the drawer instead */
+@media screen and (max-width: 76.1875em) {
+  .md-header__nav-links {
+    display: none;
+  }
+}

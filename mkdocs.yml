@@ -1,0 +1,47 @@
+site_name: The Randolph Glacier Inventory
+site_url: https://rgidata.org
+site_description: >
+  The Randolph Glacier Inventory (RGI) is a global dataset of glacier outlines,
+  produced by the IACS Working Group on the Randolph Glacier Inventory.
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: img/rgi_logo/rgi_logo_blue.png
+  favicon: img/rgi_logo/favicon.png
+  palette:
+    primary: white
+    accent: indigo
+  features:
+    - navigation.instant
+    - navigation.top
+    - toc.follow
+
+plugins: []
+
+nav:
+  - Home: index.md
+  - Versions: versions.md
+  - About: about.md
+
+copyright: >
+  &copy; 2026 RGI Consortium &ndash;
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+  &nbsp;&middot;&nbsp;
+  <a href="/privacy/">Privacy</a>
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/glims-rgi
+      name: RGI on GitHub
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true

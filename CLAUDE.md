@@ -47,6 +47,13 @@ overrides/
 
 **Favicon:** `docs/img/rgi_logo/favicon.png` — set via `favicon:` key in theme config.
 
+**User guide HTML in `docs/user_guide/`:** The `docs/user_guide/` tree contains pre-built Jupyter Book HTML — this is intentional and correct. It is produced by the sister repo `glims-rgi/rgi_user_guide` whose CI (`deploy-production.yml`) opens a PR here whenever a new user guide release is ready. MkDocs copies all non-Markdown files in `docs/` verbatim, so the Jupyter Book HTML is served as-is at `rgidata.org/user_guide/` with its own Jupyter Book sidebar navigation. It does not appear in the MkDocs nav and requires no changes to `mkdocs.yml`. Do not delete or edit these files — they are not build artifacts of this repo. **If something looks wrong in the user guide content, layout, or CSS, the fix belongs in `glims-rgi/rgi_user_guide`, not here.** Changes made directly in `docs/user_guide/` will be overwritten on the next production deploy PR.
+
+Current structure:
+
+- `docs/user_guide/` — v7.0 HTML (→ `rgidata.org/user_guide/`)
+- `docs/user_guide/v7.0/` — permanent archive copy (→ `rgidata.org/user_guide/v7.0/`)
+
 **Analytics:** Plausible (self-hosted at `plausible.oggm.org`). The domain is embedded server-side in the script URL (`pa-PEdNqFQ0VRJj8a0B4ZsJI.js`), so no `data-domain` attribute is needed. Two scripts are required — the `async` CDN script plus an inline init stub that enables optional measurements (outbound links, file downloads, form submissions). Because `extra_javascript` in MkDocs cannot produce inline `<script>` blocks, both scripts live in `overrides/main.html` via `{% block extrahead %}`, which injects them into `<head>`. Do NOT move them to `extra_javascript`.
 
 ## Zensical note

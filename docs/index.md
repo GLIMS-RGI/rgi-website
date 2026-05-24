@@ -14,11 +14,11 @@ RGI 7.0 was released on **19 September 2023** and is the recommended version for
 [https://nsidc.org/data/nsidc-0770](https://nsidc.org/data/nsidc-0770)
 
 **User Guide:**
-[http://www.glims.org/rgi_user_guide/welcome.html](http://www.glims.org/rgi_user_guide/welcome.html)
+[https://rgidata.org/user_guide/](https://rgidata.org/user_guide/)
 
 ### Citation
 
 > RGI 7.0 Consortium (2023). *Randolph Glacier Inventory — A Dataset of Global Glacier Outlines, Version 7.0.* Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center.
 > DOI: [10.5067/f6jmovy5navz](https://doi.org/10.5067/f6jmovy5navz)
 
-For details on how to cite the RGI in specific contexts, see the [dataset reference documentation](http://www.glims.org/rgi_user_guide/01_introduction.html#dataset-reference).
+For details on how to cite the RGI in specific contexts, see the [dataset reference documentation](https://rgidata.org/user_guide/01_introduction.html#dataset-reference).

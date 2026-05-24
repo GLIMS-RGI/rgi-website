@@ -15,7 +15,7 @@ The RGI draws on glacier outlines contributed by hundreds of researchers worldwi
 ## Data and Documentation
 
 - **Current version (RGI 7.0):** [https://nsidc.org/data/nsidc-0770](https://nsidc.org/data/nsidc-0770)
-- **User Guide:** [http://www.glims.org/rgi_user_guide/welcome.html](http://www.glims.org/rgi_user_guide/welcome.html)
+- **User Guide:** [https://rgidata.org/user_guide/](https://rgidata.org/user_guide/)
 - **GLIMS database:** [https://www.glims.org](https://www.glims.org)
 
 ## Contact

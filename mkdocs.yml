@@ -19,6 +19,12 @@ theme:
 
 plugins: []
 
+not_in_nav: |
+  privacy.md
+
+exclude_docs: |
+  user_guide/**/*.md
+
 nav:
   - Home: index.md
   - Versions: versions.md

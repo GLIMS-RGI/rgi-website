@@ -3,9 +3,14 @@
   max-width: 50rem;
 }
 
-/* Hide both sidebars — !important needed on secondary because Material JS sets inline style */
-.md-sidebar--primary {
-  display: none;
+/* Hide both sidebars on desktop.
+   Primary uses a media query because on mobile it IS the drawer — hiding it globally
+   would make the hamburger menu open a blank overlay (no nav visible).
+   !important on secondary because Material JS sets an inline style="display:block" at runtime. */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
 }
 
 .md-sidebar--secondary {
@@ -67,4 +72,11 @@
   .md-header__nav-links {
     display: none;
   }
+}
+
+/* Keep copyright and social icon on the same row — default flex-wrap:wrap drops
+   the icon below the copyright text on narrow screens unnecessarily */
+.md-footer-meta__inner {
+  flex-wrap: nowrap;
+  align-items: center;
 }

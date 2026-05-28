@@ -14,7 +14,7 @@ RGI 7.0 was released on **19 September 2023** and is the recommended version for
 [https://nsidc.org/data/nsidc-0770](https://nsidc.org/data/nsidc-0770)
 
 **User Guide:**
-[https://rgidata.org/user_guide/](https://rgidata.org/user_guide/)
+[https://rgidata.org/user_guide/](https://rgidata.org/user_guide/){ target=_blank rel=noopener }
 
 ### Citation
 

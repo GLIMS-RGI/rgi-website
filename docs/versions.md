@@ -2,8 +2,6 @@
 
 **RGI 7.0** (September 2023) is the current version and is recommended for all new work.
 
-Older versions can be accessed at NSIDC:
-
 | Version | Release date       | Data access |
 |---------|--------------------|-------------|
 | **7.0** | 19 September 2023  | [NSIDC](https://nsidc.org/data/nsidc-0770) |

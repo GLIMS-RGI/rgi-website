@@ -8,3 +8,24 @@
     plausible.init()
   </script>
 {% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    function updateActiveNavLink() {
+      var path = window.location.pathname;
+      document.querySelectorAll('.md-header__nav-link').forEach(function(link) {
+        var linkPath = new URL(link.href, window.location.origin).pathname;
+        var isActive = linkPath === '/'
+          ? path === '/'
+          : path === linkPath || path.startsWith(linkPath);
+        link.classList.toggle('md-header__nav-link--active', isActive);
+      });
+    }
+    // Update on initial load, then on every instant-navigation swap
+    updateActiveNavLink();
+    if (typeof document$ !== 'undefined') {
+      document$.subscribe(updateActiveNavLink);
+    }
+  </script>
+{% endblock %}

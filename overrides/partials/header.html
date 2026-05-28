@@ -38,11 +38,13 @@
     {# Inline nav links #}
     <ul class="md-header__nav-links">
       {% for nav_item in nav %}
+        {% set is_external = nav_item.url.startswith('http') %}
         <li>
           <a
             href="{{ nav_item.url | url }}"
             class="md-header__nav-link{% if nav_item.active %} md-header__nav-link--active{% endif %}"
-          >{{ nav_item.title }}</a>
+            {% if is_external %}target="_blank" rel="noopener noreferrer"{% endif %}
+          >{{ nav_item.title }}{% if is_external %}<span class="md-header__nav-link-ext">{% include ".icons/material/open-in-new.svg" %}</span>{% endif %}</a>
         </li>
       {% endfor %}
     </ul>

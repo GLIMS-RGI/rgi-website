@@ -17,7 +17,8 @@ theme:
     - navigation.top
     - toc.follow
 
-plugins: []
+plugins:
+  - blog
 
 not_in_nav: |
   privacy.md
@@ -30,6 +31,7 @@ nav:
   - Versions: versions.md
   - About: about.md
   - Related Products: products.md
+  - Blog: blog/index.md
   - "User Guide (v7.0)": https://rgidata.org/user_guide/
 
 copyright: >

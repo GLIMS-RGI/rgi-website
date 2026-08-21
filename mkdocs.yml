@@ -22,6 +22,7 @@ plugins:
 
 not_in_nav: |
   privacy.md
+  randolph.md
 
 exclude_docs: |
   user_guide/**/*.md

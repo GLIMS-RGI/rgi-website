@@ -138,3 +138,43 @@ html {
   flex-wrap: nowrap;
   align-items: center;
 }
+
+/* Call-to-action box — highlights a single key action in a page (e.g. a survey
+   link at the end of a blog post). Used via md_in_html: <div class="rgi-cta" markdown> */
+.md-typeset .rgi-cta {
+  margin: 2em 0;
+  padding: 1.2em 1.4em;
+  border: 1px solid var(--md-primary-fg-color);
+  border-left: 4px solid var(--md-primary-fg-color--dark);
+  border-radius: 0.3rem;
+  background-color: rgba(136, 179, 220, 0.12);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.md-typeset .rgi-cta > :first-child {
+  margin-top: 0;
+}
+
+.md-typeset .rgi-cta > :last-child {
+  margin-bottom: 0;
+}
+
+/* Turn the link inside the box into a button */
+.md-typeset .rgi-cta .rgi-cta__button {
+  display: inline-block;
+  margin-top: 0.8em;
+  padding: 0.5em 1.2em;
+  border-radius: 0.3rem;
+  background-color: var(--md-primary-fg-color--dark);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.125s;
+}
+
+.md-typeset .rgi-cta .rgi-cta__button:hover,
+.md-typeset .rgi-cta .rgi-cta__button:focus {
+  background-color: var(--md-accent-fg-color);
+  color: #fff;
+}

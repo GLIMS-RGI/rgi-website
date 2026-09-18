@@ -17,13 +17,13 @@ The [Randolph Glacier Inventory (RGI)](https://rgidata.org/) and the [Global Lan
 
 GLIMS and the RGI have distinct purposes, but they are increasingly intertwined.
 
-**[GLIMS](https://www.glims.org/)** provides a long-term, community-driven archive of glacier outlines from around the world and from different points in time. **[The RGI](https://rgidata.org/)** builds on GLIMS to provide a carefully selected, globally complete reference inventory designed for applications such as glacier modelling, geodetic mass balance assessments, and much more.
+**GLIMS** provides a long-term, community-driven archive of glacier outlines from around the world and from different points in time. The **RGI** builds on GLIMS to provide a carefully selected, globally complete reference inventory designed for applications such as glacier modelling, geodetic mass balance assessments, and much more.
 
-[RGI 7.0](https://rgidata.org/user_guide/) showed that the relationship goes both ways: while RGI7 was built *from* GLIMS, the process also encouraged new submissions, corrections and improvements to GLIMS. Maintaining either resource therefore increasingly depends on maintaining the other.
+The production of [RGI 7.0](https://rgidata.org/user_guide/) showed that the relationship goes both ways: while RGI7 was built *from* GLIMS, the process also encouraged new submissions, corrections and improvements *to* GLIMS. Maintaining either resource therefore increasingly depends on maintaining the other.
 
-At the same time, glacier inventories are meeting specific challenges. Satellite data, automated mapping methods and increasingly dense time series make it possible to move beyond snapshots towards richer records of glacier change. Making these datasets useful requires more than producing glacier outlines: glaciers need to be consistently identified and linked through time, quality and provenance need to be documented, and the resulting data need sustainable infrastructure and long-term stewardship.
+At the same time, glacier inventories are meeting new challenges. Satellite data, automated mapping methods and increasingly dense time series make it possible to move beyond snapshots towards richer records of glacier change. Making these datasets useful requires more than producing glacier outlines: glaciers need to be consistently identified and linked through time, quality and provenance need to be documented, and the resulting data need sustainable infrastructure and long-term stewardship.
 
-We therefore see a need for a permanent community group concerned not with one particular RGI release, but with the **long-term development, coordination and stewardship of global glacier inventory data**.
+We therefore see a need for a permanent community group concerned not only with one particular RGI release, but with the **long-term development, coordination and stewardship of global glacier inventory data**.
 
 ## What would the Standing Group do?
 
@@ -44,7 +44,7 @@ Another immediate task is to support the ongoing transition of GLIMS. With long-
 
 ## We are looking for new people
 
-For this to work, the Standing Group needs to represent more than the people who have led the RGI and GLIMS in the past.
+For this to work, the upcoming Standing Group will need to represent more than the people who have led the RGI and GLIMS in the past.
 
 We are therefore inviting expressions of interest from researchers and data providers who would like to participate in the new group. We particularly welcome people who have not previously been closely involved with RGI or GLIMS, including early-career researchers and colleagues from regions that have historically been less represented in global glacier inventory efforts.
 
@@ -52,7 +52,14 @@ There will be different ways to contribute, ranging from **co-chair and steering
 
 Experience producing glacier outlines is certainly valuable, but it is not a requirement. We would also like to hear from people working with glacier inventories in modelling, remote sensing, change detection, data infrastructure, regional assessments and other applications. In particular, we want the future direction of these datasets to be shaped by both their **producers and users**.
 
-**If you are interested in contributing, please fill in [this short survey](https://forms.cloud.microsoft/e/r271TpQqvm) and tell us a little about your background, interests and the role you might like to take.**
+<div class="rgi-cta" markdown>
+
+**Interested in contributing?** Fill in our short survey and tell us a little about
+your background, interests and the role you might like to take.
+
+[Fill in the survey](https://forms.cloud.microsoft/e/r271TpQqvm){ .rgi-cta__button }
+
+</div>
 
 We hope the new Standing Group will provide a home for the community effort around glacier inventories for many years to come. If you use, produce, or simply care about these datasets, we hope you will consider getting involved!
 

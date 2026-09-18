@@ -2,4 +2,10 @@ authors:
   fabien:
     name: Fabien Maussion
     description: RGI Working Group co-lead
-    avatar: https://github.com/fmaussion.png
+    avatar: https://fabienmaussion.info/images/fabi-portrait-out.jpg
+
+authors:
+  regine:
+    name: Regine Hock
+    description: RGI Working Group co-lead
+    avatar: https://www.mn.uio.no/geo/english/people/aca/geohyd/regineho/regine-hock-150px.png

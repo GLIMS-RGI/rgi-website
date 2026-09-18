@@ -63,5 +63,5 @@ your background, interests and the role you might like to take.
 
 We hope the new Standing Group will provide a home for the community effort around glacier inventories for many years to come. If you use, produce, or simply care about these datasets, we hope you will consider getting involved!
 
-*Fabien Maussion and Regine Hock*
+*Fabien Maussion and Regine Hock* <br>
 *Co-Chairs, [IACS Working Group on the Randolph Glacier Inventory](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/)*

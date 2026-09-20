@@ -9,7 +9,7 @@ categories:
 
 # Help shape the future of global glacier inventories
 
-The [Randolph Glacier Inventory (RGI)](https://rgidata.org/) and the [Global Land Ice Measurements from Space (GLIMS)](https://www.glims.org/) initiative have served the glacier community for many years. Following the completion of the [IACS Working Group on the Randolph Glacier Inventory](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/) that delivered RGI 7, we are now preparing the next step: a new **IACS Standing Group on Glacier Inventories**.
+The [Randolph Glacier Inventory (RGI)](https://rgidata.org/) and the [Global Land Ice Measurements from Space (GLIMS)](https://www.glims.org/) initiative have served the glacier community for many years. Following the completion of the [IACS Working Group on the Randolph Glacier Inventory](https://cryosphericsciences.org/activities/working-groups/rgi-working-group/) that delivered RGI 7, we are now preparing the next step: a new **IACS Standing Group on Glacier Inventories**. IACS [standing groups](https://cryosphericsciences.org/activities/standing-groups/) provide a longer-term structure for activities of importance to the cryospheric community.
 
 **We are looking for new people to join this effort and help shape its direction.**
 

@@ -23,7 +23,7 @@ The production of [RGI 7.0](https://rgidata.org/user_guide/) showed that the rel
 
 At the same time, glacier inventories are meeting new challenges. Satellite data, automated mapping methods and increasingly dense time series make it possible to move beyond snapshots towards richer records of glacier change. Making these datasets useful requires more than producing glacier outlines: glaciers need to be consistently identified and linked through time, quality and provenance need to be documented, and the resulting data need sustainable infrastructure and long-term stewardship.
 
-We therefore see a need for a permanent community group concerned not only with one particular RGI release, but with the **long-term development, coordination and stewardship of global glacier inventory data**.
+We therefore see a need for a permanent community group concerned not only with one particular RGI release, but with the **long-term development, coordination and stewardship of global glacier inventory data**, in coordination with the National Snow and Ice Data Center (NSIDC) and the World Glacier Monitoring Service (WGMS).
 
 ## What would the Standing Group do?
 
